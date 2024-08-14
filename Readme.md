@@ -37,18 +37,20 @@ This project implements a 3-tier rule engine application designed to determine u
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Shadowrunner21/rule_engine_js.git
-   cd rule_engine_js
+   git clone https://github.com/Shadowrunner21/rule_engine_py.git
+   cd rule_engine_py
 
 ### Create a Virtual Environment
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ### Install Dependencies
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ### Run the Application
-python app.py
+   ```bash
+   python app.py
 
 ### Open your web browser and navigate to http://127.0.0.1:5000
