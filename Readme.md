@@ -54,3 +54,15 @@ This project implements a 3-tier rule engine application designed to determine u
    python app.py
 
 ### Open your web browser and navigate to http://127.0.0.1:5000
+
+
+## Security
+Input Validation: The application includes validation mechanisms to ensure that inputs are sanitized and validated before processing. This prevents injection attacks and ensures data integrity.
+
+## Performance
+Efficient Rule Evaluation: The rule evaluation logic is optimized for performance, using efficient algorithms to handle large sets of rules and user attributes.
+Asynchronous Operations: The application uses asynchronous operations to ensure responsiveness and avoid blocking operations, particularly during rule evaluations and data processing.
+
+## Bonus Features (Planned Enhancements)
+
+Advanced Rule Management: Future improvements may include advanced rule management features such as dynamic rule updates and version control.
